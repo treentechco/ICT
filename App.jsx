@@ -226,7 +226,7 @@ export default function ICTForexLandingPage() {
               <div className="text-sm font-semibold tracking-[0.2em] text-emerald-300 uppercase">
                 ICT
               </div>
-              <p className="text-xs text-slate-400 -mt-1">Intelligent Currency Trading</p>
+              <p className="text-xs text-slate-400 -mt-1">Inner Circle Trading</p>
             </div>
           </div>
           <nav className="hidden gap-6 text-sm text-slate-300 md:flex">
@@ -259,7 +259,7 @@ export default function ICTForexLandingPage() {
               </span>
             </h1>
             <p className="mt-4 max-w-xl text-sm leading-relaxed text-slate-300">
-              ICT (Intelligent Currency Trading) combines institutional concepts, liquidity theory,
+              ICT (Inner Circle Trading) combines institutional concepts, liquidity theory,
               and strict risk management to help traders navigate the global FX markets with
               confidence and clarity.
             </p>
@@ -317,7 +317,7 @@ export default function ICTForexLandingPage() {
           <div>
             <h2 className="text-xl font-semibold text-slate-50">What is ICT Forex Trading?</h2>
             <p className="mt-3 text-sm text-slate-300">
-              ICT stands for <span className="font-semibold text-emerald-300">Intelligent Currency Trading</span>,
+              ICT stands for <span className="font-semibold text-emerald-300">Inner Circle Trading</span>,
               a modern approach to forex that focuses on how price moves around liquidity rather than relying
               on lagging indicators. We look at where institutions are likely to engineer moves, and we align
               with that narrative.
@@ -646,6 +646,7 @@ export default function ICTForexLandingPage() {
           <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-4 md:flex-row">
             <p>
               © {new Date().getFullYear()} ICT Forex Trading · Educational Purposes Only
+              Operated by TREENTECHCO
             </p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-emerald-300">Terms</a>
@@ -658,3 +659,4 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
