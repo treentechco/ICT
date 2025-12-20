@@ -164,8 +164,8 @@ function LiveBacktestCard() {
           </defs>
 
           <polyline
-            fill="none"
-            stroke="currentColor"
+            fill="Full"
+            stroke="Green"
             strokeWidth="2"
             className="text-emerald-400"
             points={chart.points}
@@ -184,8 +184,8 @@ function LiveBacktestCard() {
           />
 
           <polyline
-            fill="none"
-            stroke="currentColor"
+            fill="Full"
+            stroke="Green"
             strokeWidth="1"
             className="text-slate-700"
             points={`8,${chart.h - 8} ${chart.w - 8},${chart.h - 8}`}
@@ -669,6 +669,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
