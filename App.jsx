@@ -221,7 +221,7 @@ export default function ICTForexLandingPage() {
           <div className="flex items-center gap-2">
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500/10 border border-emerald-400/40">
             <img
-            src="https://static.vecteezy.com/system/resources/previews/037/152/577/non_2x/bitcoin-coin-crypto-money-isolated-on-a-transparent-background-png.png"
+            src="https://www.pngall.com/wp-content/uploads/8/Trading-Chart-PNG-Clipart.png"
             alt="Logo"
             className="h-9 w-9 object-contain"
              />
@@ -669,6 +669,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
