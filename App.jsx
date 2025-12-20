@@ -248,24 +248,6 @@ export default function ICTForexLandingPage() {
           </a>
         </div>
       </header>
-<div className="relative min-h-screen text-slate-50 font-sans overflow-hidden">
-  {/* Background Image */}
- <div
-  className="absolute inset-0 bg-cover bg-center blur-sm"
-  style={{
-    backgroundImage:
-      "url('https://treentech.co/wp-content/uploads/2025/12/fantasy-4063619-scaled.jpg')",
-  }}
-/>
-  {/* Dark Overlay */}
-  <div className="absolute inset-0 bg-black/70" />
-
-  {/* Page Content */}
-  <div className="relative z-10">
-    {/* your existing content goes here */}
-  </div>
-</div>
-     
       {/* Hero */}
       <main className="mx-auto max-w-6xl px-4">
         <section className="grid gap-12 py-16 md:grid-cols-[1.2fr,1fr] md:items-center">
@@ -687,6 +669,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
