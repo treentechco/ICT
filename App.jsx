@@ -655,7 +655,6 @@ export default function ICTForexLandingPage() {
              target="_blank"
              rel="noopener noreferrer"
              >
-             TREENTECHCO
              </a>
 
             </p>
@@ -670,6 +669,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
