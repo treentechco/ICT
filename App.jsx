@@ -219,11 +219,11 @@ export default function ICTForexLandingPage() {
       <header className="sticky top-0 z-20 border-b border-slate-800 bg-slate-950/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <div className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-emerald-500/10 border border-emerald-400/40">
+            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500/10 border border-emerald-400/40">
             <img
-            src="https://cryptologos.cc/logos/bitcoin-btc-logo.png"
+            src="https://static.vecteezy.com/system/resources/previews/037/152/577/non_2x/bitcoin-coin-crypto-money-isolated-on-a-transparent-background-png.png"
             alt="Logo"
-            className="h-5 w-5 object-contain"
+            className="h-9 w-9 object-contain"
              />
             </div>
             <div>
@@ -670,6 +670,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
