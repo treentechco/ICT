@@ -220,7 +220,7 @@ export default function ICTForexLandingPage() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-emerald-500/10 border border-emerald-400/40 text-emerald-300 font-bold text-lg">
-              I
+            <img src={https://cryptologos.cc/logos/bitcoin-btc-logo.png}/>
             </div>
             <div>
               <div className="text-sm font-semibold tracking-[0.2em] text-emerald-300 uppercase">
@@ -658,6 +658,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
