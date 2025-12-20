@@ -567,58 +567,6 @@ export default function ICTForexLandingPage() {
           </div>
         </section>
 
-        {/* Learn & Resources */}
-        <section id="learn" className="border-t border-slate-800 py-14">
-          <div className="mb-6 flex flex-col justify-between gap-4 md:flex-row md:items-end">
-            <div>
-              <h2 className="text-xl font-semibold text-slate-50">Learn ICT Your Way</h2>
-              <p className="mt-2 max-w-xl text-sm text-slate-300">
-                Whether you&apos;re new to forex or transitioning from indicators to price-action and liquidity,
-                ICT concepts can be layered at your own pace.
-              </p>
-            </div>
-            <p className="text-xs text-slate-400">Choose a path that matches your current level.</p>
-          </div>
-
-          <div className="grid gap-4 md:grid-cols-3">
-            <div className="flex flex-col rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300">Foundation</p>
-              <h3 className="mt-1 text-sm font-semibold text-slate-100">Beginners</h3>
-              <p className="mt-2 text-xs text-slate-400">
-                Learn how FX markets work, key sessions, basic risk management, and how to read clean price
-                charts without clutter.
-              </p>
-              <button className="mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200">
-                View beginner roadmap
-              </button>
-            </div>
-
-            <div className="flex flex-col rounded-2xl border border-emerald-500/50 bg-emerald-500/5 p-4">
-              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300">Core</p>
-              <h3 className="mt-1 text-sm font-semibold text-slate-100">Intermediate</h3>
-              <p className="mt-2 text-xs text-slate-200">
-                Dive into liquidity sweeps, FVGs, order blocks, and time-of-day models. Build a complete trading
-                plan with detailed rules.
-              </p>
-              <button className="mt-4 rounded-full bg-emerald-500 px-4 py-1.5 text-xs font-semibold text-slate-950 hover:bg-emerald-400">
-                Explore core ICT modules
-              </button>
-            </div>
-
-            <div className="flex flex-col rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
-              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300">Pro</p>
-              <h3 className="mt-1 text-sm font-semibold text-slate-100">Advanced</h3>
-              <p className="mt-2 text-xs text-slate-400">
-                Add portfolio thinking, multi-timeframe execution, and journaling routines to refine and
-                scale your performance.
-              </p>
-              <button className="mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200">
-                Join waitlist
-              </button>
-            </div>
-          </div>
-        </section>
-       
         {/* Contact */}
         <section id="contact" className="border-t border-slate-800 py-14">
           <div className="grid gap-10 md:grid-cols-[1.1fr,1fr]">
@@ -721,6 +669,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
