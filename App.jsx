@@ -329,7 +329,7 @@ export default function ICTForexLandingPage() {
           </div>
 
           <div className="grid gap-4 md:grid-cols-3">
-            <div className="flex flex-col rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+            <div className="flex flex-col rounded-2xl border border-bold-800 bg-slate-950/60 p-4">
               <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300">Foundation</p>
               <h3 className="mt-1 text-sm font-semibold text-slate-100">Beginners</h3>
               <p className="mt-2 text-xs text-slate-400">
@@ -353,7 +353,7 @@ export default function ICTForexLandingPage() {
               </button>
             </div>
 
-            <div className="flex flex-col rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
+            <div className="flex flex-col rounded-2xl border border-bold-800 bg-slate-950/60 p-4">
               <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300">Pro</p>
               <h3 className="mt-1 text-sm font-semibold text-slate-100">Advanced</h3>
               <p className="mt-2 text-xs text-slate-400">
@@ -669,6 +669,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
