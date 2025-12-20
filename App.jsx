@@ -221,7 +221,6 @@ export default function ICTForexLandingPage() {
           <div className="flex items-center gap-2">
             <div>
             <img src={https://cryptologos.cc/logos/bitcoin-btc-logo.png}/>  
-            </div>
             <div>
               <div className="text-sm font-semibold tracking-[0.2em] text-emerald-300 uppercase">
                 ICT
@@ -658,6 +657,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
