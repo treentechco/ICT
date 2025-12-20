@@ -250,14 +250,13 @@ export default function ICTForexLandingPage() {
       </header>
 <div className="relative min-h-screen text-slate-50 font-sans overflow-hidden">
   {/* Background Image */}
-  <div
-    className="absolute inset-0 bg-cover bg-center"
-    style={{
-      backgroundImage:
-        "url('https://treentech.co/wp-content/uploads/2025/12/fantasy-4063619-scaled.jpg')",
-    }}
-  />
-
+ <div
+  className="absolute inset-0 bg-cover bg-center blur-sm"
+  style={{
+    backgroundImage:
+      "url('https://treentech.co/wp-content/uploads/2025/12/fantasy-4063619-scaled.jpg')",
+  }}
+/>
   {/* Dark Overlay */}
   <div className="absolute inset-0 bg-black/70" />
 
@@ -688,6 +687,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
