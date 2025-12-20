@@ -649,7 +649,15 @@ export default function ICTForexLandingPage() {
         <footer className="border-t border-slate-800 py-6 text-[11px] text-slate-500">
           <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-4 md:flex-row">
             <p>
-              © {new Date().getFullYear()} ICT Forex Trading · Operated by TREENTECHCO
+             © {new Date().getFullYear()} ICT Forex Trading · Operated by{"TREENTECHCO"}
+             <a
+             href="https://treentech.co"
+             target="_blank"
+             rel="noopener noreferrer"
+             >
+             TREENTECHCO
+             </a>
+
             </p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-emerald-300">Terms</a>
@@ -662,6 +670,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
