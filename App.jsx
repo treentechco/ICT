@@ -568,102 +568,6 @@ export default function ICTForexLandingPage() {
           </div>
         </section>
        
-      {/* Trigger */}
-      <button
-        onClick={() => setContactOpen(true)}
-        className="rounded-full bg-emerald-500 px-6 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-slate-950 hover:bg-emerald-400"
-      >
-        Contact ICT
-      </button>
-
-      {/* Modal */}
-      {contactOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center">
-          {/* Blur Background */}
-          <div
-            className="absolute inset-0 bg-black/60 backdrop-blur-md"
-            onClick={() => setContactOpen(false)}
-          />
-
-          {/* Popup Card */}
-          <div className="relative z-10 w-full max-w-xl rounded-2xl border border-slate-800 bg-slate-900 p-6 shadow-2xl">
-            {/* Close Button */}
-            <button
-              onClick={() => setContactOpen(false)}
-              className="absolute right-4 top-4 text-slate-400 hover:text-slate-200"
-            >
-              ✕
-            </button>
-
-            {/* Contact Section */}
-            <h2 className="text-xl font-semibold text-slate-50">
-              Contact ICT
-            </h2>
-            <p className="mt-2 text-sm text-slate-300">
-              Ready to take your forex trading more seriously? Share a bit about
-              your experience and goals, and we&apos;ll get back to you.
-            </p>
-
-            <form className="mt-5 space-y-4 text-sm">
-              <div>
-                <label className="block text-xs text-slate-400">Name</label>
-                <input
-                  type="text"
-                  placeholder="Your full name"
-                  className="mt-1 w-full rounded-xl border border-slate-700 bg-slate-900/80 px-3 py-2 text-slate-100 outline-none focus:border-emerald-400"
-                />
-              </div>
-
-              <div>
-                <label className="block text-xs text-slate-400">Email</label>
-                <input
-                  type="email"
-                  placeholder="you@example.com"
-                  className="mt-1 w-full rounded-xl border border-slate-700 bg-slate-900/80 px-3 py-2 text-slate-100 outline-none focus:border-emerald-400"
-                />
-              </div>
-
-              <div>
-                <label className="block text-xs text-slate-400">
-                  Experience level
-                </label>
-                <select className="mt-1 w-full rounded-xl border border-slate-700 bg-slate-900/80 px-3 py-2 text-slate-100 outline-none focus:border-emerald-400">
-                  <option>New to Forex</option>
-                  <option>Some Experience (0-2 years)</option>
-                  <option>Experienced (2+ years)</option>
-                </select>
-              </div>
-
-              <div>
-                <label className="block text-xs text-slate-400">
-                  What are you looking for?
-                </label>
-                <textarea
-                  rows={4}
-                  placeholder="Share your goals, challenges, and what you want to learn about ICT..."
-                  className="mt-1 w-full rounded-xl border border-slate-700 bg-slate-900/80 px-3 py-2 text-slate-100 outline-none focus:border-emerald-400"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="rounded-full bg-emerald-500 px-6 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-slate-950 hover:bg-emerald-400"
-              >
-                Send message
-              </button>
-
-              <p className="text-[11px] text-slate-500">
-                By submitting, you agree that this is educational only and not a
-                request for financial advice.
-              </p>
-            </form>
-          </div>
-        </div>
-      )}
-    </>
-  );
-}
-
         {/* Contact */}
         <section id="contact" className="border-t border-slate-800 py-14">
           <div className="grid gap-10 md:grid-cols-[1.1fr,1fr]">
@@ -766,6 +670,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
