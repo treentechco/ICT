@@ -221,8 +221,8 @@ export default function ICTForexLandingPage() {
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-xl bg-emerald-500/10 border border-emerald-400/40">
             <img
-            src="cryptologos.cc/logos/bitcoin-btc-logo.png"
-            alt="icon"
+            src="https://treentech.co/wp-content/themes/ttc/assets/imgs/logo-dark.svg"
+            alt="Logo"
             className="h-5 w-5 object-contain"
              />
             </div>
@@ -662,6 +662,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
