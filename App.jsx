@@ -650,7 +650,7 @@ export default function ICTForexLandingPage() {
             <p>
              © {new Date().getFullYear()} ICT Forex Trading · Operated by{" "}
              <a
-             href="https://treentech.co"
+             href="www.treentech.co"
              target="_blank"
              rel="noopener noreferrer"
              >
@@ -669,6 +669,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
