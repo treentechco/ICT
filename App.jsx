@@ -1,5 +1,27 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
+async function handleSubmit(e) {
+  e.preventDefault();
+
+  const res = await fetch("/api/contact", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      name,
+      email,
+      level,
+      message,
+    }),
+  });
+
+  if (res.ok) {
+    alert("Message sent successfully!");
+  } else {
+    alert("Failed to send message.");
+  }
+}
+
+
 function clamp(n, min, max) {
   return Math.max(min, Math.min(max, n));
 }
@@ -593,7 +615,7 @@ export default function ICTForexLandingPage() {
                 and we&apos;ll get back to you.
               </p>
 
-              <form className="mt-5 space-y-4 text-sm">
+              <form onSubmit={handleSubmit} className="mt-5 space-y-4 text-sm">
                 <div>
                   <label className="block text-xs text-slate-400">Name</label>
                   <input
@@ -632,12 +654,7 @@ export default function ICTForexLandingPage() {
                   type="submit"
                   className="rounded-full bg-emerald-500 px-6 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-slate-950 hover:bg-emerald-400"
                 >
-                <a
-                 href="mailto:admin@icttradinghub.com?subject=New%20Message%20from%20ICT%20Website&body=Hello%20ICT%20Team,%0D%0A%0D%0A"
-                className="inline-block rounded-full bg-emerald-500 px-6 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-slate-950 hover:bg-emerald-400"
-                >
-               Send Message
-               </a>
+                  Send Message
                 </button>
                 <p className="text-[11px] text-slate-500">
                   By submitting, you agree that this is educational only and not a request for financial advice.
@@ -690,6 +707,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
