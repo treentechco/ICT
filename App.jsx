@@ -350,7 +350,7 @@ export default function ICTForexLandingPage() {
                 charts without clutter.
               </p>
            <a
-             href="https://www.treentech.co/"
+             href="https://whatsapp.com/channel/0029Vb78QmsDDmFbK49aJc3P"
              className="mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
              target=" mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
              rel="noopener noreferrer"
@@ -367,7 +367,7 @@ export default function ICTForexLandingPage() {
                 plan with detailed rules.
               </p>
               <a
-             href="https://www.treentech.co/"
+             href="https://whatsapp.com/channel/0029Vb78QmsDDmFbK49aJc3P"
              className="mt-4 rounded-full bg-emerald-500 px-4 py-1.5 text-xs font-semibold text-slate-950 hover:bg-emerald-400"
              target="mt-4 rounded-full bg-emerald-500 px-4 py-1.5 text-xs font-semibold text-slate-950 hover:bg-emerald-400"
              rel="noopener noreferrer"
@@ -385,7 +385,7 @@ export default function ICTForexLandingPage() {
               </p>
               
               <a
-             href="https://www.treentech.co/"
+             href="https://whatsapp.com/channel/0029Vb78QmsDDmFbK49aJc3P"
              className="mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
              target=" mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
              rel="noopener noreferrer"
@@ -699,6 +699,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
