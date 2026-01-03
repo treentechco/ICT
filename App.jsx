@@ -607,7 +607,6 @@ export default function ICTForexLandingPage() {
               </p>
 
               <form onSubmit={handleSubmit} className="mt-5 space-y-4 text-sm">
-                <form action="https://formspree.io/f/xxxxx" method="POST">
 
                 <div>
                   <label className="block text-xs text-slate-400">Name</label>
@@ -700,6 +699,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
