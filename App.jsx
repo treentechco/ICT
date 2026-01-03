@@ -632,7 +632,12 @@ export default function ICTForexLandingPage() {
                   type="submit"
                   className="rounded-full bg-emerald-500 px-6 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-slate-950 hover:bg-emerald-400"
                 >
-                  Send message
+                  <a
+            href="tehzeeb@icttradinghub.com"
+            className="rounded-full bg-emerald-500 px-6 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-slate-950 hover:bg-emerald-400"
+          >
+            Send message
+          </a>
                 </button>
                 <p className="text-[11px] text-slate-500">
                   By submitting, you agree that this is educational only and not a request for financial advice.
@@ -685,6 +690,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
