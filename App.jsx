@@ -337,14 +337,13 @@ export default function ICTForexLandingPage() {
                 charts without clutter.
               </p>
              <Link
-  href="https://www.treentech.co"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <button className="mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200">
-    View beginner roadmap
-  </button>
-</Link>
+             href="https://www.treentech.co"
+             target="_blank"
+             rel="noopener noreferrer">
+             <button className="mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200">
+            View beginner roadmap
+            </button>
+            </Link>
 
             <div className="flex flex-col rounded-2xl border border-emerald-500/50 bg-emerald-500/5 p-4">
               <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300">Core</p>
@@ -674,6 +673,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
