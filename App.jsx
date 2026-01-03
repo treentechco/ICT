@@ -342,7 +342,7 @@ export default function ICTForexLandingPage() {
              target=" mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
              rel="noopener noreferrer"
              >
-             View Beginner Road Map  
+                View Beginner Road Map  
              </a>
             </div>
 
@@ -674,6 +674,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
