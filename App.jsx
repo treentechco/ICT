@@ -219,9 +219,9 @@ export default function ICTForexLandingPage() {
       <header className="sticky top-0 z-20 border-b border-slate-800 bg-slate-950/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <div className="flex items-center gap-2">
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500/10 border border-emerald-400/40">
+            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500/10 border-emerald-400/40">
             <img
-            src="https://www.pngall.com/wp-content/uploads/8/Trading-Chart-PNG-Clipart.png"
+            src="https://treentechco.wordpress.com/wp-content/uploads/2026/01/chatgpt-image-jan-3-2026-03_13_09-pm.png"
             alt="Logo"
             className="h-9 w-9 object-contain"
              />
@@ -685,6 +685,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
