@@ -6,21 +6,12 @@ async function handleSubmit(e) {
   const res = await fetch("/api/contact", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      name,
-      email,
-      level,
-      message,
-    }),
+    body: JSON.stringify({ name, email, level, message }),
   });
 
-  if (res.ok) {
-    alert("Message sent successfully!");
-  } else {
-    alert("Failed to send message.");
-  }
+  if (res.ok) alert("Message sent!");
+  else alert("Failed to send");
 }
-
 
 function clamp(n, min, max) {
   return Math.max(min, Math.min(max, n));
@@ -616,6 +607,8 @@ export default function ICTForexLandingPage() {
               </p>
 
               <form onSubmit={handleSubmit} className="mt-5 space-y-4 text-sm">
+                <form action="https://formspree.io/f/xxxxx" method="POST">
+
                 <div>
                   <label className="block text-xs text-slate-400">Name</label>
                   <input
@@ -707,6 +700,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
