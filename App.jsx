@@ -344,6 +344,7 @@ export default function ICTForexLandingPage() {
             View beginner roadmap
             </button>
             </Link>
+            </div>
 
             <div className="flex flex-col rounded-2xl border border-emerald-500/50 bg-emerald-500/5 p-4">
               <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300">Core</p>
@@ -673,6 +674,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
