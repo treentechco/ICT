@@ -336,15 +336,12 @@ export default function ICTForexLandingPage() {
                 Learn how FX markets work, key sessions, basic risk management, and how to read clean price
                 charts without clutter.
               </p>
-            <a
-  href="https://www.treentech.co"
-  target="_blank"
-  rel="noopener noreferrer"
+           <button
+  onClick={() => window.open("https://www.treentech.co", "_blank")}
+  className="mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
 >
-  <button className="mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200">
-    View beginner roadmap
-  </button>
-</a>
+  View beginner roadmap
+</button>
 
             <div className="flex flex-col rounded-2xl border border-emerald-500/50 bg-emerald-500/5 p-4">
               <p className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald-300">Core</p>
@@ -674,6 +671,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
