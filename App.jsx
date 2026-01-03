@@ -227,7 +227,7 @@ export default function ICTForexLandingPage() {
              />
             </div>
             <div>
-              <div className="text-sm font-semibold tracking-[0.2em] text-emerald-300 uppercase">
+              <div className="text-sm font-bold tracking-[0.2em] text-emerald-300 uppercase">
                 ICT
               </div>
               <p className="text-xs text-slate-400 -mt-1">Inner Circle Trading</p>
@@ -685,6 +685,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
