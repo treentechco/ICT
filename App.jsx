@@ -353,9 +353,14 @@ export default function ICTForexLandingPage() {
                 Dive into liquidity sweeps, FVGs, order blocks, and time-of-day models. Build a complete trading
                 plan with detailed rules.
               </p>
-              <button className="mt-4 rounded-full bg-emerald-500 px-4 py-1.5 text-xs font-semibold text-slate-950 hover:bg-emerald-400">
-                Explore core ICT modules
-              </button>
+              <a
+             href="https://www.treentech.co/"
+             className="mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
+             target=" mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
+             rel="noopener noreferrer"
+             >
+                Explore Core ICT Modules  
+             </a>
             </div>
 
             <div className="flex flex-col rounded-2xl border border-bold-800 bg-slate-950/60 p-4">
@@ -365,9 +370,15 @@ export default function ICTForexLandingPage() {
                 Add portfolio thinking, multi-timeframe execution, and journaling routines to refine and
                 scale your performance.
               </p>
-              <button className="mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200">
-                Join waitlist
-              </button>
+              
+              <a
+             href="https://www.treentech.co/"
+             className="mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
+             target=" mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
+             rel="noopener noreferrer"
+             >
+                Join Waitlist  
+             </a>
             </div>
           </div>
         </section>
@@ -674,6 +685,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
