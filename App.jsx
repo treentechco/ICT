@@ -633,7 +633,7 @@ export default function ICTForexLandingPage() {
                   className="rounded-full bg-emerald-500 px-6 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-slate-950 hover:bg-emerald-400"
                 >
                 <a
-                 href="mailto:tehzeeb@icttradinghub.com"
+                 href="mailto:admin@icttradinghub.com?subject=New%20Message%20from%20ICT%20Website&body=Hello%20ICT%20Team,%0D%0A%0D%0A"
                 className="inline-block rounded-full bg-emerald-500 px-6 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-slate-950 hover:bg-emerald-400"
                 >
                Send Message
@@ -690,6 +690,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
