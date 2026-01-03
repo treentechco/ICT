@@ -355,7 +355,7 @@ export default function ICTForexLandingPage() {
               </p>
               <a
              href="https://www.treentech.co/"
-             className="mt-4 rounded-full bg-emerald-500 border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
+             className="rounded-full bg-emerald-500 px-4 py-1.5 text-xs font-semibold centre text-slate-950 hover:bg-emerald-400"
              target=" mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-bold hover:border-emerald-400/70 hover:text-emerald-200"
              rel="noopener noreferrer"
              >
@@ -685,6 +685,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
