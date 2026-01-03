@@ -338,7 +338,7 @@ export default function ICTForexLandingPage() {
               </p>
            <a
             href="www.treentech.co"
-            className="rounded-full border border-emerald-400/70 bg-emerald-500/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-emerald-200 hover:bg-emerald-500/20"
+            className="mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
           >
             View beginner road Map
           </a>
@@ -672,6 +672,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
