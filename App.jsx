@@ -268,8 +268,7 @@ export default function ICTForexLandingPage() {
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3 text-xs text-slate-300">
               <button className="rounded-full bg-emerald-500 px-5 py-2 font-semibold text-slate-950 shadow-lg shadow-emerald-500/30 hover:bg-emerald-400">
-                <a href="#contact" className="rounded-full bg-emerald-500 px-5 py-2 font-semibold text-slate-950 shadow-lg shadow-emerald-500/30 hover:bg-emerald-400">Contact</a>
-                Book a Free FX Call
+                <a href="#contact" className="rounded-full bg-emerald-500 px-5 py-2 font-semibold text-slate-950 shadow-lg shadow-emerald-500/30 hover:bg-emerald-400">Book a Free FX Call</a>
               </button>
               <button className="rounded-full border border-slate-600 px-5 py-2 font-semibold hover:border-emerald-400/70 hover:text-emerald-200">
                 View Strategy Breakdown
@@ -686,6 +685,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
