@@ -337,11 +337,12 @@ export default function ICTForexLandingPage() {
                 charts without clutter.
               </p>
            <a
-            href="www.treentech.co"
-            className="mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
-          >
-            View beginner road Map
-          </a>
+             href="https://www.treentech.co/"
+             target=" mt-4 rounded-full border border-slate-700 px-4 py-1.5 text-xs font-semibold hover:border-emerald-400/70 hover:text-emerald-200"
+             rel="noopener noreferrer"
+             >
+             View Beginner Road Map  
+             </a>
             </div>
 
             <div className="flex flex-col rounded-2xl border border-emerald-500/50 bg-emerald-500/5 p-4">
@@ -672,6 +673,7 @@ export default function ICTForexLandingPage() {
     </div>
   );
 }
+
 
 
 
